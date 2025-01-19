@@ -1,0 +1,915 @@
+Username: User1
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: για χ=1 ειναι εφικτο μεχρι τον κομβο 6. Για να συνεχισει στους υπολοιπους κομβους μπορει να παρει το z την τιμη 5.
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: ειναι εφικτο για χ=-1 και z=5
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: δεν ειναι εφικτο γιατι με τιμη x=0 λογω συγκρουσης στον κομβο 4
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: Δεν ειναι εφικτο γιατι λογω του && πρεπει να ισχυει και ο κομβος 9
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: Δεν ειναι εφικτο λογω συγκρουσης στον κομβο 4 αν x=0
+
+Username: User2
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: working for x=4 & z=6 the new value of y=3 & z=7
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: working for x=-2 , x=4 & z=6
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: working for x=0 & z=3
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: working for x=4 & z=3
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: not working, if (8,9) don't work for x=0
+
+Username: User3
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: Εφικτό:
+x=1, z=6
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: Εφικτό:
+x=-2, x=1, z=6
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: Ανέφικτο:
+x=0
+Κόμβος:
+8
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: Εφικτό:
+x>0, z<5
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: Εφικτό:
+x>0, z>=5
+
+Username: User4
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: ειναι εφικτο για τιμή εισόδου χ<0 ή ζ<=5
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: ειναι εφικτό για τιμές εισόδου χ= -1, χ= 2 και ζ= 3
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: δεν ειναι εφικτό στον κόμβο 5 για χ= 2
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: δεν είναι εφικτό στον κόμβο 8 για χ= -1
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: δεν είναι εφικτό στον κόμβο 5
+
+Username: User5
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: EINAI EFIKTO GIA X=1,Z=0
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: DEN EINAI EFIKTO KOLLAEI STON KOMVO 3
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: EFIKTO GIA X=1 Z=5
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: EFIKTO GIA X=1, Z=2
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: DEN EINAI EFIKTO KOLLAEI STON KOMVO 5
+
+Username: User6
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: anefikto gia x=0
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: x<0 , anefikto
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: efikto gia x=0
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: x<0, efikto
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: anefikto gia x=0
+
+Username: User7
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: Eφικτό για x=1 και z=4
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: Εφικτό για x=0 x=1 και z=4
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: ανέφικτο για z=5 λόγω κόμβου 11
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: Ανέφικτο για z=5 λόγω κόμβου 8
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: Ανέφικτο για x=1 λόγω κόμβου 4
+
+Username: User8
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: einai efikto x = 5 kai z= 3
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: einai efikto x =-2 , x=5 kai z=3
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: den einai efikto gia x=0 logo komboy 3 kai 4
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: den einai efikto x = 5 logo komboy 8 kai 3
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: den einsi efikto logo komboy 5 kai kai 8
+
+Username: User9
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: x=6, z=7 εφικτό
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: x=7  z=2 ανέφικτο
+κομβος 3
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: εφικτό z=3 x=5
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: ανέφικτο χ=-3 z=0 κόμβος 3
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: εφικτό x=7 z=8
+
+Username: User10
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: Εφικτό για x=1 και z=1
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: Εφικτό για x=-1,1 και z=1
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: Ανέφικτο για x=0. Κόμβος 8
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: Ανέφικτο για x=0. Κόμβος 4
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: Ανέφικτο για x=0. Κόμβος 8
+
+Username: User11
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: Δυνατο για a>10(11), c>0(2)
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: Δυνατο για a>10,c<0(-3), c>0(2)
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: Δυνατο για a<10(9),c=0
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: Δυνατο για a>10(11),c=0
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: Δυνατο για a>10(12),c>0(2),b>20
+
+Username: User12
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: εφικτό για a=5, c=8
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: εφικτό για a=5, c=8
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: εφικτό για a=15, c=8
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: εφικτό για a=5, c=10
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: εφικτό για a=5, c=-2
+
+Username: User13
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a>=10, a=11
+c>0, c=2
+b<=20
+efikto
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a>=10, a=14
+1fora c<=0, c=-3
+2fora c>0, c=5
+efikto
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a<10, a=4
+c>0,c=3
+efikto
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: den einai efikto
+apo komvo 6 exoume eksasfalisei oti c>0 ara isxuei panta o komvos 7
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: den einai efikto dioti i megisti timi poy mporei na parei h metabliti b einai 10 ara i synthiki b>20(komvos 8) den tha isxuei pote ara den tha perasei pote ston komvo 9
+
+Username: User14
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=10, 5
+b=1,
+c=2, 12
+efikto
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=5, 10
+b=10
+c=-1, 2, 
+mh efikto (kombos 10)
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a=12, 7
+b=1,
+c=20, 30
+efikto
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: a=1, 6,
+b=10,
+mh efikto (kombos 3)
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a=3,
+(mh efikto kombos 2)
+
+Username: User15
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=10, c=1, εφικτό
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=10, c=-1, c=1, εφικτό
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a=1, c=1, εφικτό
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: ανέφικτο αφού για να πάμε κατευθείαν στον κόμβο 10 χωρίς να περάσουμε από τον 8 σημαίνει πως ο έλεγχος του κόμβου 7 απέτυχε άρα c<=0. Δεν θα μπορούσαμε να περάσουμε τον κόμβο 6
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: ανέφικτο αφού μπήκαμε στον κόμβο 3  άρα b=1 και για να μπούμε στον κόμβο 9 πρέπει b>20 (κόμβος 8)
+
+Username: User2
+
+Path1: 1-2-3-4-5
+Comment: efikto
+
+Username: User2
+
+Path1: 1-2-3-4-5
+Comment: efikto
+
+Username: User2
+
+Path1: 1-2-3-4-5
+Comment: efikto
+
+Username: User16
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=10, c=5  efikto
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=5, c=-1 ,c=7 efikto
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a=3, c=4 efikto
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: a= 12, c=6 efikto
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a=15, c=12 efikto
+
+Username: User17
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=10, c=1 εφικτό
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=11, c=2, εφικτό
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a=9, c=2, εφικτό
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: a=10, c=2, ,μη εφικτό λόγω 10
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a=10, c=1, μη εφικτό λογω 9
+
+Username: User18
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=10;
+c=1;
+
+Εφικτό
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=10;
+c=0;
+c=-5;
+
+Εφικτό
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a=9;
+c=1;
+Εφικτό
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: Μη εφικτό (λείπει το μονοπάτι 6->5 )
+a=10;
+c=0;
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a=10;
+c=5;
+Μη εφικτό γιατί b<20
+
+Username: User19
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=10, c=1 εφικτο
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=10, c=-1, c=3 εφικτο
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: α=9, c=2 εφικτο
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: a=11, c=-1 εφικτο
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a=13, c=1 ανεφικτο κομβος 9 γιατι c=1
+
+Username: User20
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=13
+c=4
+εφικτο
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=13
+c=-4
+c=4
+ανεφικτο στον κομβο 9 δεν μπαινει γιατι b=1
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a=13
+c=4
+ανεφικτο γιατι το α ειναι μεγαλυερο του 10 και δεν μπαινει στον κομβο 4
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: a=13
+c=4
+εφικτο
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a=13
+c=4
+ανεφικτο γιατι στον κομβο 8 το b ειναι μικροτερο του 20 οποτε δεν μπαινει στον κομβο 9
+
+Username: User21
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: x = 1 z=1 ειναι εφικτο
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: x = -1 x = 5 z = 7 δεν ειναι εφικτο επερεπε να εκτελεστει το 10
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: x = 2 δεν εκτελείται γιατί ο κόμβος 5 προυποθετει το x = 0
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: x = 10 δεν ειναι εφικτο γιατι επρεπε να εκτελεστει και το 9 για να παει στο 11
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: x = 2 δεν εκτελειται γιατι ο κομβος 5 προυποθετει το x = 0
+
+Username: User22
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: x=1
+z=4
+εφικτό
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: x=-1
+x=2
+z=4
+εφικτό
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: x=0
+ανεφικτο στον κόμβο 4, αν το χ ήταν 0 θα έπρεπε να μείνει στο do - while
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: x=2
+z=3
+ανενεφικτο
+στον κόμβο 8 αν το x δεν είναι μεγαλύτερο του 0 θα έπρεπε να μείνει η εκτέλεση στον κόμβο 3(do - while)
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: χ=2
+ανέφικτο γιατί για να μπει στον κόμβο 5 σημαίνει οτι είναι x=0 που δεν γίνεται γιατί στο do- while δεν επιτρέπεται να δώσει ο χρήστης τιμή μικρότερη ή ίση με 0
+
+Username: User23
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: x=1
+z=1
+δεν είναι εφικτό
+καθως απο το κομβο 8 πηγαινει στο κομβο 11
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: x=-1
+x=8
+z=6
+δεν ειναι εφικτο λογω του κομβου 11
+καθως πηγαινει στον 10
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: x=5
+z=10
+δεν ειναι εφικτο λογω κομβου 5
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: x=5
+z=10
+ειναι εφικτο
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: x=5
+z=5
+δεν ειναι εφικτο λογω κομβου 5
+
+Username: User24
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: x=2 z=2 εφικτο
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: χ= -1 , χ= 0 ,z=6 εφικτο
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: χ= 1 ,z=6 ανεφικτο γιατι στο while θελει <=ο και στο  if >= 0 δεν θα φτασει στο if
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: x=2 ανεφικτο διοτι δεν θα φτασει ποτε μεχρι εκει με χ<0
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: x=2 z=6 εφικτο
+
+Username: User25
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: x=1, z=7 efikto
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: x=-1, x=2, z = 5 efikto
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: x=0, z=8 efikto
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: x = 6, z=7 efikto
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: x=0, z = 9 anefikto
+
+Username: User26
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: x=2 z=5
+den einai efikto, prosperanei ton komvo 10
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: x=-2 x=1 z=4
+efikto
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: x=5 
+den einai efikto, prepei na paei ston komvo 6 adi gia ton 5, den ikanopoihte i sinthiki
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: x=0
+den einai efikto, prpei prota na bei ston komvo 5
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: x=0 z=5
+efikto
+
+Username: User27
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: x=1, z=1, efikto
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: x=-1, x=2, z=6 anefikto komvos 9
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: x=5, z=4, anefikto komvos 4
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: x=8, z=2 , anefikto komvos 9
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: x=6, z=2, anefikto komvos 4
+
+Username: User28
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: x = 1
+z = 5
+ανέφικτο, διότι μετά τον κόμβο 9 πηγαίνουμε στον 10 και όχι στον 11
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: x = 0
+x = 1
+z = 5
+ανέφικτο, διότι μετά τον κόμβο 9 πηγαίνουμε στον 10 και όχι στον 11
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: x = 1
+z = 5
+ανέφικτο, διότι με x=1 δεν πηγαίνουμε στον κόμβο 5, αλλά στον 6
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: x = 1
+z = 5
+ανέφικτο, διότι για x=1 >0 προχωράμε στον κόμβο 9 και όχι στον 11
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: x = 1
+z = 5
+ανέφικτο, διότι με x=1 δεν πηγαίνουμε στον κόμβο 5, αλλά στον 6
+
+Username: User29
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: x=-5 z=5 ανεφικτο καθως με το x πηγαινουμε απο το 8 στο 11
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: x=-7 x=5 z=4 εφικτο
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: x=3 z=6 ανεφικτο καθως περναει απο το '6'
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: x=3 z=7 ανεφικτο καθως μετα το '8' θα παει στο '9'
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: x=10 z=10 ανεφικτο καθως πηγαινει στο '6' και οχι στο '5'
+
+Username: User30
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: x=10,z=8 
+anefikto den pame sto 3
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: x=-5,x=10,z=8
+anefikto gt den ginete to 4
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: x=5,z=15 
+anefikto den paei sto 4
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: x=20,z=-5 
+efikto
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: x=5,z=17
+anefikto den paei sto 5
+
+Username: User31
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=1 c=1 εφικτο
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=1 c=-1 c=1 εφικτο
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a=2 c=5  εφικτο
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: a=1 c=1 δεν ειναι εφικτο λογω της 10
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a=10 c=5 δεν ειναι εφικτο λογω τησ 8
+
+Username: User32
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a = 1 c = 2
+anefikto de paei sto 3
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a = 1 c = 2
+anefikto den paei sto 3
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a = 1 c = 2
+efikto
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: a = 10 c = 2
+anefikto paei apo to 7 sto 8 kai meta sto 10
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a = 10 c = 1
+anefikto den paei sto 9 pote
+
+Username: User33
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: για a=0,c=0 το μονοπατι ειναι εφικτο
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: για a=0,c=0 το μονοπατι ειναι εφικτο
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: για a=0,c=0 το μονοπατι ειναι εφικτο
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: για a=0,c=0 το μονοπατι ειναι ανεφικτο γιατι δεν γινεται να βγει απο το 6 και να μην ισχυει το 7
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: για a=20,c=0 το μονοπατι ειναι ανεφικτο γιατι το b δεν μπορει να ειναι μεγαλυτερο του 10 αρα το 8 δεν ισχυει ποτε
+
+Username: User34
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a = 12, c = 3
+Εφικτό
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a = 10, c = -1, c = 6,
+Εφικτό
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a = 7, c = 1
+Εφικτό
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: a = 16, c= 3, 
+Ανέφικτο, διότι λόγο της 6 το c λαμβάνει πάντα τιμή μεγαλύτερη του 0, άρα και η συνθήκη 7 θα είναι πάντα αληθής
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a = 20, c = 9
+Ανέφικτο, αφού από την εκτέλεση της 3 το b λαμβάνει τιμή ίση με 1, άρα  η συνθήκη 8 θα είναι ψευδής και για αυτό η 9 δεν πρόκειται να εκτελεστεί
+
+Username: User35
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: gia a=10 kai c=1 einai efikto
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: gia a=11 kai c=-1 kai c=1  einai efikto
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: gia a=5 kai c=1 einai efikto
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: gia a=10 kai c=1 den einai efikto giati tha eprepe na eleksei kai ton komvo 8
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: gia a=10 kai c=1 den einai efikto giati gia na paei ston komvo 9 prepei na einai kai to b>10 enw einai 0
+
+Username: User36
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=10
+c=7
+Εφικτό
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=10
+c=-6
+c=5
+Efikto
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a=8
+c=8
+Efikto
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: a=10
+c=1
+Mh efikto giati efoson c>0 h synuhkh tou kombou 7 einai alithis opote meta eprepe na paei ston kombo 8
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a=10
+c=2
+Mh efikto giati efoson b<20 den ua eprepe na paei sto 9 kombo
+
+Username: User37
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=1 and c=1
+ανέφικτο γιατί σταματαει στο 7
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=5 and c=10
+εφικτό
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a=10 and c=10
+εφικτό
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: α=20 and c=20
+εφικτό
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: α=5 and c=5
+εφικτό
+
+Username: User38
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=10,c=2 efikto
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=10,c=-2,c=2 efikto
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a=3,c=1 efikto
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: a=10.c=1 efikto
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a=10 ,c=1 mi efikto giati den mpainei pote ston kombo 9
+
+Username: User39
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=0, c=1
+
+ανεφικτο, στον έλεγχο 2 γίνεται μετάβαση στο 4 και οχι στο 3
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: α= 12, c= -1
+
+α= 12, c= 1
+
+εφικτό
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: α = 8, c=3
+
+εφικτό
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: α = 15, c=3
+
+εφικτό
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: α = 15 , c = 5
+
+ανέφικτο, στον έλεγχο 8, το b είναι 1.
+
+Username: User40
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=10, c=1 efikto
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=10, c=-1, c=1 efikto
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a=1, c=1 efikto
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: a=10, c=1 anefikto giati o komvos 7 isxyei panta opote prepei na perasei apo komvo 8
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a=10, c=1 anefikto giati o komvos 8 den isxyei pote afoy h megisth timh toy b eine 10
+
+Username: User41
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=10  c=1 efikto
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=10 c=-1 c=2 efikto
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a= 70 c=7 den einai efikto giati den paei ston kombo 4
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: a= 17 c=99 mh efikto giati o kombos 7 isxuei panta
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a=1 c=2 den einai efikto giati paei ston kombo 4
+
+Username: User42
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=10, c=5, efikto
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=10, c=-3, c=5 efikto
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a=2, c=6 efikto
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: a=11, c=7 mh efikto giati to c einai panta thetiko ara prepei na ginei elegxos toy b>20
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a=11, c=5 mh efikto giati to b mporei na einai max 10 ara pame sigoura sto else
+
+Username: User43
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: x=1, z=1 effikto
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: x=-1, x=1, z=1 effikto
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: x=1, z=1 mh effikto logw toy komvou 5
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: x=1, z=1 mh effikto giati o komvos 8 isxuei panta
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: x=1, z=1 ,mh effikto logw toy komvou 5
+
+Username: User44
+
+Path1: 1-2-3-4-6-7-8-9-11-12
+Comment: x=1, z=5 efikto
+
+Path2: 1-2-3-2-3-4-6-7-8-9-11-12
+Comment: x=20, z=-2, z=6 efikto
+
+Path3: 1-2-3-4-5-7-8-9-11-12
+Comment: x=65, z=9 anefikto  anefikto giati o kombos 5 den isxyei
+
+Path4: 1-2-3-4-6-7-8-11-12
+Comment: x=3, z=4 anefikto giati den elenxei to 9
+
+Path5: 1-2-3-4-5-7-8-9-10-12
+Comment: x=20, z=7 anefikto giati o kombos 5 den isxyei
+
+Username: User45
+
+Path1: 1-2-3-5-6-7-8-10-11
+Comment: a=10, c=1 efikto
+
+Path2: 1-2-3-5-6-5-6-7-8-10-11
+Comment: a=10, c=-10, c=1 efikto
+
+Path3: 1-2-4-5-6-7-8-10-11
+Comment: a=2, c=1 efikto
+
+Path4: 1-2-3-5-6-7-10-11
+Comment: a=10, c=1 mh efikto logo tou komvou 7
+
+Path5: 1-2-3-5-6-7-8-9-11
+Comment: a=10, c=1 mh efikto giati o komvos 8 den isxuei pote
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diplomatiki</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body class="display-page">
+    <div class="logout-container">
+      <form action="/logout" method="POST" onsubmit="return confirmLogout()">
+        <button type="submit" class="logout-btn">Log-Out</button>
+      </form>
+    </div>
+    <div class="image-container" id="code-container">
+      <img
+        id="img1"
+        src="{{ url_for('static', filename='uploads/' + image1) }}"
+        alt="Code Image"
+      />
+    </div>
+    <div class="divider"></div>
+    <div class="image-container" id="graph-container">
+      <img
+        id="img2"
+        src="{{ url_for('static', filename='uploads/' + image2) }}"
+        alt="Graph Image"
+      />
+    </div>
+
+    <button type="button" id="undo-button">Undo</button>
+    <button type="button" id="submit-aoi-button">Submit AOI</button>
+    <button type="button" id="start-button">Start</button>
+
+    <div class="path-input-container">
+      <label for="path-input">Enter Graph Paths:</label><br />
+      <textarea
+        id="path-input"
+        rows="5"
+        cols="40"
+        placeholder="Enter paths, e.g. 1-2-3-4"
+      ></textarea
+      ><br />
+      <button type="button" id="submit-paths">Submit</button>
+    </div>
+    <div class="paths-list"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
